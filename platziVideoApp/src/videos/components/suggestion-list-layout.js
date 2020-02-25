@@ -1,6 +1,5 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import SuggestionList from '../containers/suggestions-list';
 
 function SuggestionListLayout(props) {
   return (
