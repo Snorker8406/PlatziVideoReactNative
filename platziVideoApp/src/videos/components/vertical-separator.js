@@ -1,17 +1,13 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, StyleSheet} from 'react-native';
 
 function VerticalSeparator(props) {
   return (
     <View
       style={[
         styles.separator,
-        {
-          borderColor: props.color ? props.color : '#eaeaea',
-        },
-      ]}>
-      <Text style={styles.text}> {'esto es un separador'} </Text>
-    </View>
+        { borderColor: props.color ? props.color : '#eaeaea'},
+      ]} />
   );
 }
 

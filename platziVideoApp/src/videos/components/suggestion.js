@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     width: 100,
     resizeMode: 'contain',
   },
-  genere: {
+  genre: {
     position: 'absolute',
     left: 0,
     top: 0,
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 7,
     paddingVertical: 5,
   },
-  genereText: {
+  genreText: {
     color: 'white',
     fontSize: 11,
   },
